@@ -9,7 +9,7 @@
 }*/
 
 .intro {
-  background-image: url("/assets/coverpic.jpg");
+  background: url(../assets/coverpic.jpg);
 }
 
 a:hover {
