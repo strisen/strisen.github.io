@@ -22,7 +22,7 @@ a:hover {
   width: 100vw;
 }
 
-.header {
+#header {
   background-image: url("/assets/coverpic.jpg");
   background-size: cover;
   background-attachment: fixed;
