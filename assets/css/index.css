@@ -104,7 +104,17 @@ a:hover {
   background-color: #ffffff;
 }
 
+@media(max-width: 830px) {
+  .description {
+    height: 7rem;
+  }
+}
+
 @media(max-width: 600px) {
+
+  .description {
+    height: 4rem;
+  }
 
   .header h1 {
     font-size: 30px;
