@@ -19,6 +19,10 @@ p {
   font-size: 20px;
 }
 
+li {
+  margin-left: 20px;
+}
+
 .navbar {
   padding-left: 0;
   padding-right: 0;
@@ -92,11 +96,25 @@ a:hover {
 
 .about-text {
   position: absolute;
-  top: 30%;
+  top: 25%;
   background-color: rgba(255, 255, 255, 0.5)
 }
 
 .scrolled {
-  /*transition: all 0.4s ease;*/
   background-color: #ffffff;
+}
+
+@media(max-width: 600px) {
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+  .about-text {
+    top: 15%;
+  }
+
 }
