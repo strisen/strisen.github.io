@@ -8,6 +8,10 @@
   height: 100vh;
 }*/
 
+.intro {
+  background-image: url("https://scontent-sin6-2.xx.fbcdn.net/v/t31.0-8/328226_10150471901506076_1795331548_o.jpg?oh=cea070e0b756642973a3c3ecf876a280&oe=5B4B95C4");
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -19,7 +23,7 @@ a:hover {
 .header {
   height: 100vh;
   width: 100vw;
-  /*background-color: #ffffff*/
+  background-color: #ffffff;
 }
 
 .footer {
@@ -30,8 +34,4 @@ a:hover {
 .projects {
   height: 30vh;
   width: 100vw;
-}
-
-.intro {
-  background-image: url("https://scontent-sin6-2.xx.fbcdn.net/v/t31.0-8/328226_10150471901506076_1795331548_o.jpg?oh=cea070e0b756642973a3c3ecf876a280&oe=5B4B95C4");
 }
