@@ -24,7 +24,7 @@ a:hover {
 
 #header {
   background-image: url("/assets/coverpic.jpg");
-  background-size: cover;
+  /*background-size: cover;*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
