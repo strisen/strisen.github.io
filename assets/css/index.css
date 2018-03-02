@@ -1,6 +1,7 @@
 body {
   width: 100%;
   height: 100vh;
+  font-family: 'Yrsa', serif;
 }
 
 footer {
@@ -14,14 +15,23 @@ img {
   width: auto;
 }
 
+p {
+  font-size: 20px;
+}
+
 .navbar {
   padding-left: 0;
   padding-right: 0;
+  transition: background 0.5s ease;
 }
 
 .navbar-nav {
   margin: 0;
   padding: 0;
+}
+
+.nav-items {
+  margin-right: 20px;
 }
 
 #header {
@@ -56,7 +66,8 @@ a:hover {
 }
 
 .header h1 {
-  background-color: rgba(255, 255, 255, 0.5)
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 60px;
 }
 
 .title {
@@ -65,6 +76,7 @@ a:hover {
 
 .description {
   height: 5.5rem;
+  width: auto;
 }
 
 .about {
@@ -82,4 +94,9 @@ a:hover {
   position: absolute;
   top: 30%;
   background-color: rgba(255, 255, 255, 0.5)
+}
+
+.scrolled {
+  /*transition: all 0.4s ease;*/
+  background-color: #ffffff;
 }
