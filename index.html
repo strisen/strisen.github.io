@@ -27,16 +27,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item nav-items">
+            <li class="nav-item nav-items" id="ahead">
               <a class="nav-link" href="#header"><i class="fas fa-home"></i> Home</a>
             </li>
-            <li class="nav-item nav-items">
-              <a class="nav-link" href="#about"><i class="fas fa-question-circle"></i> About</a>
+            <li class="nav-item nav-items" id="aabout">
+              <a class="nav-link" href="#about" ><i class="fas fa-question-circle"></i> About</a>
             </li>
-            <li class="nav-item nav-items">
-              <a class="nav-link" href="#projects"><i class="fas fa-question-circle"></i> Projects</a>
+            <li class="nav-item nav-items" id="aprojects">
+              <a class="nav-link" href="#projects"><i class="fas fa-folder"></i> Projects</a>
             </li>
-            <li class="nav-item nav-items">
+            <li class="nav-item nav-items" id="acontact">
               <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
             </li>
           </ul>
@@ -60,37 +60,49 @@
     <div class="container-fluid" id="projects">
       <div class="row text-center align-items-center">
 
-        <div class="offset-md-2 col-md-8 mt-5 mb-5">
+        <div class="offset-md-3 col-md-6 mt-5 mb-5">
           <h1>Projects</h1>
+          <p class="description">A collection of the projects that I have worked on during the Web Development Immersive course at General Assembly Singapore.</p>
         </div>
 
         <div class="offset-md-1 col-md-5 mb-5">
-          <img src="assets/project-1.png" alt="">
+          <img src="assets/project1.png" alt="Memory Game Versus">
           <h2 class="mt-2">Memory Game Versus</h2>
+          <span class="badge badge-pill badge-info">HTML</span>
+          <span class="badge badge-pill badge-info">JavaScript</span>
+          <span class="badge badge-pill badge-info">CSS</span>
           <p class="description">The objective of this memory game is to match the pairs of cards together and get more points than your opponent.</p>
           <a href="https://www.github.com/strisen/project-1" class="btn btn-outline-success"><i class="fab fa-github"></i> Github</a>
           <a href="http://strisen.com/project-1/" class="btn btn-outline-info"><i class="fas fa-arrow-circle-right"></i> Live Site</a>
         </div>
 
         <div class="col-md-5 mb-5">
-          <img src="assets/project-2.png" alt="">
+          <img src="assets/project2.png" alt="SMRT Delay Tracker">
           <h2 class="mt-2">SMRT Delay Tracker</h2>
+          <span class="badge badge-pill badge-info">NodeJS</span>
+          <span class="badge badge-pill badge-info">ExpressJS</span>
+          <span class="badge badge-pill badge-info">MongoDB</span>
           <p class="description">The aim of this app is to allow users to keep track of train delays easily in one location.</p>
           <a href="https://www.github.com/strisen/project-2" class="btn btn-outline-success"><i class="fab fa-github"></i> Github</a>
           <a href="https://smrtdelaytracker.herokuapp.com/" class="btn btn-outline-info"><i class="fas fa-arrow-circle-right"></i> Live Site</a>
         </div>
 
         <div class="offset-md-1 col-md-5 mb-5">
-          <img src="assets/project-3.png" alt="">
+          <img src="assets/project3.png" alt="Cash My Bling">
           <h2 class="mt-2">Cash My Bling</h2>
+          <span class="badge badge-pill badge-info">Ruby on Rails</span>
+          <span class="badge badge-pill badge-info">PostgreSQL</span>
           <p class="description">An online platform that allows the buying & selling of jewelry and tracks payments through the Stripe API.</p>
           <a href="https://www.github.com/strisen/project-3" class="btn btn-outline-success"><i class="fab fa-github"></i> Github</a>
           <a href="https://p3bling.herokuapp.com/" class="btn btn-outline-info"><i class="fas fa-arrow-circle-right"></i> Live Site</a>
         </div>
 
         <div class="col-md-5 mb-5">
-          <img src="assets/project-4.png" alt="">
+          <img src="assets/project4.png" alt="TripCollab Expanded">
           <h2 class="mt-2">TripCollab Expanded</h2>
+          <span class="badge badge-pill badge-info">ReactJS</span>
+          <span class="badge badge-pill badge-info">NodeJS</span>
+          <span class="badge badge-pill badge-info">ExpressJS</span>
           <p class="description">An app that allows for easy planning of a trip itinerary with friends by simply sharing the link to the session.</p>
           <a href="https://www.github.com/strisen/project-4" class="btn btn-outline-success"><i class="fab fa-github"></i> Github</a>
           <a href="https://tripcollab-v2.herokuapp.com/" class="btn btn-outline-info"><i class="fas fa-arrow-circle-right"></i> Live Site</a>
@@ -118,7 +130,7 @@
     <div class="container-fluid">
 
       <footer class="text-center justify-content-center align-items-center" id="contact">
-        <h3>Contact Me Via </h3>
+        <h1>Contact Me Via </h1>
         <div class="icons fa-3x">
           <a href="mailto:ktwong1305@gmail.com">
             <i class="fas fa-envelope m-2"></i>
