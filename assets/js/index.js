@@ -11,23 +11,28 @@ $(document).ready(function () {
     }
   })
 
+  $("#brand").click(function () {
+    let header = document.getElementById("header")
+    header.scrollIntoView({behavior: "smooth"})
+  })
+
   $("#ahead").click(function () {
-    $("html, body").animate({
-      scrollTop : $("#header").offset().top }, 500)
+    let header = document.getElementById("header")
+    header.scrollIntoView({behavior: "smooth"})
   })
 
   $("#aabout").click(function () {
-    $("html, body").animate({
-      scrollTop : $("#header").offset().top + 2000 }, 500)
+    let about = document.getElementById("about")
+    about.scrollIntoView({behavior: "smooth"})
   })
 
   $("#aprojects").click(function () {
-    $("html, body").animate({
-      scrollTop : $("#header").offset().top + 547 }, 500)
+      let projects = document.getElementById("projects")
+      projects.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"})
   })
 
   $("#acontact").click(function () {
-    $("html, body").animate({
-      scrollTop : $("#header").offset().top + 2000 }, 500)
+    let contact = document.getElementById("contact")
+    contact.scrollIntoView({behavior: "smooth"})
   })
 })

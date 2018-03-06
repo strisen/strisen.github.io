@@ -25,6 +25,14 @@ li {
   margin-left: 20px;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 .badge {
   font-size: 18px;
   margin-bottom: 6px;
@@ -58,6 +66,10 @@ li {
 
 #projects {
   background-color: #F9FBF2;
+}
+
+#projects h1 {
+  padding: 20px;
 }
 
 a:hover {
